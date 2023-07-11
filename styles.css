@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ysabeau+Office:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 3%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(images/oiiii.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.anime-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.anime-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-anime-image {
+    height: 270px;
+    width: 300px;
+    float: left;
+    margin: 15px;
+}
+
+.main-footer {
+    background-color: yellow;
+    color: white;
+    padding: .25em 0;
+    margin-top: 50px;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .3em;
+}
+
+.footer-nav img {
+    width: 40px;
+    height: 40px;
+    transition: transform .2s;
+}
+
+.footer-nav img:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, .1);
+    transition: transform .2s;
+}
+
+.btn-header:hover {
+    transform: scale(1.1);
+}
