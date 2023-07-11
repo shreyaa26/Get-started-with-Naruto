@@ -1,4 +1,4 @@
-# Description
+# Get started with Naruto
 Welcome to Get Started with Naruto, a website dedicated to all things Naruto! This website is designed to provide Naruto fans with an interactive and immersive experience, allowing them to explore the various arcs of the Naruto anime, learn more about the series, and purchase their favorite Naruto manga volumes and merchandise.
 
 
