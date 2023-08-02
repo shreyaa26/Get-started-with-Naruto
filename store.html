@@ -251,9 +251,9 @@
         <!--element 1-->
         <div class="shop-item">
           <!--title of element-->
-          
-            <span class="shop-item-title">Anime Tees</span>
-         
+
+          <span class="shop-item-title">Anime Tees</span>
+
           <!--image-->
           <img
             src="images/anime_tees.jpg"
@@ -266,16 +266,18 @@
             <!--price-->
             <span class="shop-item-price">$ 12.99</span>
             <!--button-->
-            <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
           </div>
         </div>
 
         <!--element 2-->
         <div class="shop-item">
           <!--title of element-->
-          
-            <span class="shop-item-title">Action Figure</span>
-         
+
+          <span class="shop-item-title">Action Figure</span>
+
           <!--image-->
           <img
             src="images/action_figure.jpg"
@@ -288,33 +290,42 @@
             <!--price-->
             <span class="shop-item-price">$ 11.56</span>
             <!--button-->
-            <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
           </div>
         </div>
 
         <!--element 3-->
         <div class="shop-item">
           <!--title of element-->
-          
-            <span class="shop-item-title">Gift box</span>
-          
+
+          <span class="shop-item-title">Gift box</span>
+
           <!--image-->
-          <img src="images/gift_box.jpg" alt="gift box" title="gift box" class="shop-item-img"/>
+          <img
+            src="images/gift_box.jpg"
+            alt="gift box"
+            title="gift box"
+            class="shop-item-img"
+          />
           <!--price and add to cart button-->
           <div class="shop-item-details">
             <!--price-->
             <span class="shop-item-price">$ 7.22</span>
             <!--button-->
-            <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
           </div>
         </div>
 
         <!--element 4-->
         <div class="shop-item">
           <!--title of element-->
-         
-            <span class="shop-item-title">Wall Posters</span>
-       
+
+          <span class="shop-item-title">Wall Posters</span>
+
           <!--image-->
           <img
             src="images/wall_posters.jpg"
@@ -327,16 +338,18 @@
             <!--price-->
             <span class="shop-item-price">$ 8.99</span>
             <!--button-->
-            <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
           </div>
         </div>
 
-         <!--element 5-->
-         <div class="shop-item">
+        <!--element 5-->
+        <div class="shop-item">
           <!--title of element-->
-         
-            <span class="shop-item-title">Logo Keychain</span>
-       
+
+          <span class="shop-item-title">Logo Keychain</span>
+
           <!--image-->
           <img
             src="images/keychain.webp"
@@ -349,16 +362,18 @@
             <!--price-->
             <span class="shop-item-price">$ 6.27</span>
             <!--button-->
-            <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
           </div>
         </div>
 
-         <!--element 6-->
-         <div class="shop-item">
+        <!--element 6-->
+        <div class="shop-item">
           <!--title of element-->
-         
-            <span class="shop-item-title">Bagpack</span>
-       
+
+          <span class="shop-item-title">Bagpack</span>
+
           <!--image-->
           <img
             src="images/bagpack.webp"
@@ -371,53 +386,68 @@
             <!--price-->
             <span class="shop-item-price">$ 9.11</span>
             <!--button-->
-            <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              ADD TO CART
+            </button>
           </div>
         </div>
       </div>
     </section>
 
     <!--Cart section-->
-    <section>
-      <h2>CART</h2>
+    <section class="content-section container">
+      <h2 class="section-header">CART</h2>
       <!--headers-->
-      <div>
-        <strong>ITEM</strong>
-        &lt;&gt;
-        <strong>PRICE</strong>
-        &lt;&gt;
-        <strong>QUANTITY</strong>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+
+        <span class="cart-price cart-header cart-column">PRICE</span>
+
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
       </div>
       <!--rows-->
-      <div>
-        <img src="images/volume_1.jpg" width="100" />
-        <span>Volume 1</span>
-        &lt;&gt;
-        <span>$ 8.11</span>
-        &lt;&gt;
-        <input type="number" value="1" />
-        <button type="button">REMOVE</button>
-      </div>
+      <div class="cart-items">
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              src="images/volume_1.jpg"
+              width="100"
+              class="cart-item-image"
+            />
+            <span class="cart-item-title">Volume 1</span>
+          </div>
+          <span class="cart-price cart-column">$ 8.11</span>
+          <div class="cart-quantity cart-column">
+            <input type="number" value="1" class="cart-quantity-input" />
+            <button type="button" class="btn btn-danger">REMOVE</button>
+          </div>
+        </div>
 
-      <div>
-        <img src="images/anime_tees.jpg" width="100" />
-        <span>Anime Tees</span>
-        &lt;&gt;
-        <span>$ 12.99</span>
-        &lt;&gt;
-        <input type="number" value="1" />
-        <button type="button">REMOVE</button>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              src="images/anime_tees.jpg"
+              width="100"
+              class="cart-item-image"
+            />
+            <span class="cart-item-title">Anime Tees</span>
+          </div>
+          <span class="cart-price cart-column">$ 12.99</span>
+          <div class="cart-quantity cart-column">
+            <input type="number" value="1" class="cart-quantity-input" />
+            <button type="button" class="btn btn-danger">REMOVE</button>
+          </div>
+        </div>
       </div>
-      <hr />
       <!--total-->
-      <div>
-        <strong>Total</strong>
-        <span>$ 39.97</span>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$ 39.97</span>
       </div>
       <!--Purchase button-->
-      <div>
-        <button type="button">PURCHASE</button>
-      </div>
+      
+        <button type="button" class="btn btn-primary btn-purchase">PURCHASE</button>
+     
     </section>
 
     <!--FOOTER OF THE PAGE-->
