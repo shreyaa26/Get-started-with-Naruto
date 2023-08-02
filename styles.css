@@ -114,6 +114,21 @@ html, body {
     transition: transform .2s;
 }
 
+.footer-nav ul {
+    margin: 0;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
 .footer-nav img:hover {
     transform: scale(1.1);
 }
@@ -126,13 +141,69 @@ html, body {
 }
 
 .btn-header {
-    margin: .5em 15% 2em 15%;
+    display: block;
+    margin: 0 auto;
     color: white;
     border: 2px solid white;
     background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    font-size: 2em;
+    width: 80px;
+    height: 80px;
+    font-weight: lighter;
+    padding: 0;
     transition: transform .2s;
 }
 
 .btn-header:hover {
+    transform: scale(1.1);
+}
+
+.tour-section {
+    max-width: 860px;
+}
+
+.tour-row {
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-ep {
+    color: #555;
+    font-weight: bold;
+    width: 19%;
+}
+
+.tour-arc {
+    width: 37%;
+}
+
+.tour-btn {
+    width: 19%;
+    font-size: 0.8em;
+}
+
+.btn-primary {
+    color: white;
+    background-color: yellow;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    transition: transform .2s;
+}
+
+.btn-primary:hover {
     transform: scale(1.1);
 }
