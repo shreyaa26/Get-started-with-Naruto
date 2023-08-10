@@ -13,7 +13,7 @@ Welcome to Get Started with Naruto, a website dedicated to all things Naruto! Th
 
 ## Description
 
-My project is what it sounds like. It's all one needs to get started with the anime 'Naruto'. The project's home page provides a list of all arcs of the Naruto anime episode-wise under the 'tours' section, and users can watch any arc as per their interest by clicking on the corresponding 'Watch now' buttons. The about page of my website contains a brief description of the anime. Additionally, the store page showcases various Naruto anime merchandise, such as manga volumes and other collectibles. Each item is accompanied by photos, prices, and an 'Add to cart' button, allowing users to easily add items to their shopping cart. The store page also features a cart section, displaying added items, quantities, total price, and purchase options.
+The project is what it sounds like. It's all one needs to get started with the anime 'Naruto'. The project's home page provides a list of all arcs of the Naruto anime episode-wise under the 'Tours' section, and users can watch any arc as per their interest by clicking on the corresponding 'Watch now' buttons. The about page of the website contains a brief description of the anime. Additionally, the store page showcases various Naruto anime merchandise, such as manga volumes and other collectibles. Each item is accompanied by photos, prices, and an 'Add to cart' button, allowing users to easily add items to their shopping cart. The store page also features a cart section, displaying added items, quantities, total price, and purchase options.
 
 Home page - 
 
