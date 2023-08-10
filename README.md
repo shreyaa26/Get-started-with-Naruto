@@ -17,23 +17,23 @@ The project is what it sounds like. It's all one needs to get started with the a
 
 Home page - 
 
-![Home-page](1.png)
+![Home-page](images/1.png)
 
 About page - 
 
-![About-page](2.png)
+![About-page](images/2.png)
 
 Store page: Manga section - 
 
-![Store-page-manga-section](3.png)
+![Store-page-manga-section](images/3.png)
 
 Store page: Merch section - 
 
-![Store-page-merch-section](4.png)
+![Store-page-merch-section](images/4.png)
 
 Store page: Cart section - 
 
-![Store-page-cart-section](5.png)
+![Store-page-cart-section](images/5.png)
 
 ## Technologies Used
 
