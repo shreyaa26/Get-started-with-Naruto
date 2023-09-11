@@ -10,6 +10,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 .nav ul {
@@ -88,6 +89,71 @@ html, body {
     width: 300px;
     float: left;
     margin: 15px;
+}
+
+.container .section-heading {
+    font-size: 1.4em;
+    color: #333;
+    border-bottom: 0.05px solid #777;
+    padding-bottom: 7px;
+    margin-bottom: 25px;
+}
+
+.main-section .contents-bar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0.1px solid #333;
+    height: auto;
+    width: 280px;
+    font-size: 1.3em;
+    line-height: inherit;
+    padding: 7px 0px;
+}
+
+.main-section .contents-bar h2 {
+    font-size: 1.1em;
+    border-bottom: 0.1px solid #333;
+    margin: 0;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.main-section .contents-bar ul {
+    margin:15px 0px;
+    list-style: none;
+    padding-left: 20px;
+}
+  
+.main-section .contents-bar a {
+    text-decoration: none;
+}
+
+.main-section .contents-bar li {
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.main-section .contents-bar li:hover {
+    background-color: #dedede;
+    border-radius: 6px;
+}
+
+#chars img {
+    float: right;
+}
+
+#extrnl-lnks p {
+    color: #333;
+    font-weight: 600;
+}
+
+#extrnl-lnks a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#extrnl-lnks a:hover {
+    text-decoration:underline;
 }
 
 .main-footer {
