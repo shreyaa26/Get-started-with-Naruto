@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ysabeau+Office:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: 'Ysabeau Office', sans-serif;
+    font-family: 'Inter',Helvetica Neue,Helvetica,Arial,sans-serif;;
     color: #777;
 }
 
@@ -34,7 +35,7 @@ html, body {
 
 .main-nav {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
@@ -69,7 +70,8 @@ html, body {
 }
 
 .content-section p {
-    font-size: 1.3em;
+    font-size: 1.0em;
+    color: #555;
 }
 
 .container {
@@ -81,7 +83,7 @@ html, body {
 .section-header {
     color: #333;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 .about-anime-image {
@@ -92,7 +94,7 @@ html, body {
 }
 
 .container .section-heading {
-    font-size: 1.4em;
+    font-size: 1.1em;
     color: #333;
     border-bottom: 0.05px solid #777;
     padding-bottom: 7px;
@@ -104,8 +106,8 @@ html, body {
     margin-bottom: 30px;
     border: 0.1px solid #333;
     height: auto;
-    width: 280px;
-    font-size: 1.3em;
+    width: 250px;
+    font-size: 1.0em;
     line-height: inherit;
     padding: 7px 0px;
 }
@@ -149,7 +151,7 @@ html, body {
 
 #extrnl-lnks a {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 #extrnl-lnks a:hover {
@@ -235,10 +237,10 @@ html, body {
 
 .tour-row {
     text-align: center;
-    border-bottom: 1px solid #333;
+    border-bottom: 0.01px solid #333;
     padding-bottom: 1em;
     margin-bottom: 1em;
-    font-size: 1.4em;
+    font-size: 1.0em;
 }
 
 .tour-row:last-child {
@@ -258,6 +260,7 @@ html, body {
 
 .tour-arc {
     width: 37%;
+    color: #555;
 }
 
 .tour-btn {
@@ -294,7 +297,7 @@ html, body {
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.0em;
     color: #333;
     margin-bottom: 15px;
 }
@@ -316,7 +319,7 @@ html, body {
 
 .cart-header {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: #333;
 }
 
@@ -340,7 +343,7 @@ html, body {
 
 .cart-price {
     width: 20%;
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: #333;
 }
 
@@ -351,7 +354,7 @@ html, body {
 .cart-item-title {
     color: #333;
     margin-left: .5em;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 .cart-item-image {
@@ -381,7 +384,7 @@ html, body {
     color: #333;
     padding: 0;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.0em;
     margin-right: 25px;
 }
 
@@ -401,18 +404,18 @@ html, body {
 
 .cart-total-title {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.0em;
     color: black;
     margin-right: 20px;
 }
 
 .cart-total-price {
     color: #333;
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
-    font-size: 1.65em;
+    font-size: 1.4em;
 }
