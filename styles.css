@@ -115,6 +115,7 @@ html, body {
 .main-section .contents-bar h2 {
     font-size: 1.1em;
     border-bottom: 0.1px solid #333;
+    color: #555;
     margin: 0;
     padding: 10px;
     padding-left: 30px;
@@ -128,6 +129,7 @@ html, body {
   
 .main-section .contents-bar a {
     text-decoration: none;
+    color: #555;
 }
 
 .main-section .contents-bar li {
