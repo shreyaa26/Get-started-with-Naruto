@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ysabeau+Office:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter',Helvetica Neue,Helvetica,Arial,sans-serif;;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    width: 100%; 
+    overflow-x: hidden;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 3%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(images/oiiii.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.anime-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.anime-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.content-section p {
+    font-size: 1.0em;
+    color: #555;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    color: #333;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.about-anime-image {
+    height: 270px;
+    width: 300px;
+    float: left;
+    margin: 15px;
+}
+
+.container .section-heading {
+    font-size: 1.1em;
+    color: #333;
+    border-bottom: 0.05px solid #777;
+    padding-bottom: 7px;
+    margin-bottom: 25px;
+}
+
+.main-section .contents-bar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0.1px solid #333;
+    height: auto;
+    width: 250px;
+    font-size: 1.0em;
+    line-height: inherit;
+    padding: 7px 0px;
+}
+
+.main-section .contents-bar h2 {
+    font-size: 1.1em;
+    border-bottom: 0.1px solid #333;
+    color: #555;
+    margin: 0;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.main-section .contents-bar ul {
+    margin:15px 0px;
+    list-style: none;
+    padding-left: 20px;
+}
+  
+.main-section .contents-bar a {
+    text-decoration: none;
+    color: #555;
+}
+
+.main-section .contents-bar li {
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.main-section .contents-bar li:hover {
+    background-color: #dedede;
+    border-radius: 6px;
+}
+
+#chars img {
+    float: right;
+}
+
+#extrnl-lnks p {
+    color: #333;
+    font-weight: 600;
+}
+
+#extrnl-lnks a {
+    text-decoration: none;
+    font-size: 1.0em;
+}
+
+#extrnl-lnks a:hover {
+    text-decoration:underline;
+}
+
+.main-footer {
+    background-color: yellow;
+    color: white;
+    padding: .25em 0;
+    margin-top: 50px;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .3em;
+}
+
+.footer-nav img {
+    width: 40px;
+    height: 40px;
+    transition: transform .2s;
+}
+
+.footer-nav ul {
+    margin: 0;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav img:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    font-size: 2em;
+    width: 80px;
+    height: 80px;
+    font-weight: lighter;
+    padding: 0;
+    transition: transform .2s;
+}
+
+.btn-header:hover {
+    transform: scale(1.1);
+}
+
+.tour-section {
+    max-width: 860px;
+}
+
+.tour-row {
+    text-align: center;
+    border-bottom: 0.01px solid #333;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    font-size: 1.0em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-ep {
+    color: #555;
+    font-weight: bold;
+    width: 19%;
+}
+
+.tour-arc {
+    width: 37%;
+    color: #555;
+}
+
+.tour-btn {
+    width: 19%;
+    font-size: 0.8em;
+}
+
+.btn-primary {
+    color: white;
+    background-color: yellow;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    /* transition: transform .2s; */
+}
+
+.btn-primary:hover {
+    /* transform: scale(1.1); */
+    background-color: #e7e722;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.0em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-img {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.0em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.0em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.0em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.0em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid #333;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.0em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.0em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.4em;
+}
+
+@media (max-width: 768px) {
+
+    .nav li {
+        display: block; 
+        margin: 5px 0;
+    }
+
+    .anime-name {
+        font-size: 2.5em;
+    }
+
+    .anime-name-large {
+        font-size: 4em; 
+    }
+
+    .about-anime-image {
+        width: 100%; 
+        height: auto; 
+        float: none;
+        margin: 0 auto;
+    }
+
+    .main-footer-container {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .main-footer-container ul {
+        text-align: center; 
+        margin-top: 15px;
+    }
+
+    .container {
+        max-width: 100%; 
+        padding: 0 1em;
+    }
+
+    .cart-row {
+        flex-direction: column;
+    }
+
+    .cart-item,
+    .cart-price,
+    .cart-quantity {
+        width: 100%; 
+        text-align: center;
+    }
+    
+    .btn-purchase {
+        font-size: 1.2em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .anime-name {
+        font-size: 1.8em;
+    }
+
+    .anime-name-large {
+        font-size: 3em;
+    }
+
+    .btn-header {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5em;
+    }
+
+    .tour-btn {
+        width: 100%; 
+    }
+}
